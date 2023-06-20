@@ -12,7 +12,7 @@ struct Detail: View {
     var body: some View {
         ScrollView {
             VStack {
-                CircleImage()
+                CircleImage(img: row.image)
                     //.offset(y: -100)
                     //.ignoresSafeArea(edges: .top)
                     

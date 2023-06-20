@@ -17,7 +17,7 @@ struct rowList: View {
                     rowmenu(row: row)
                 }
             }
-            .navigationTitle("Features")
+            .navigationTitle("Various Pages")
         }
     }
 }
